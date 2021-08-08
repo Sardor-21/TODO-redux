@@ -7,8 +7,22 @@ const TodosWrapper = styled.div`
     border-radius: 10px;
     background-color: #f2f2f2;
     .tasks {
-        max-height: 400px;
+        max-height: 285px;
         overflow: auto;
+    }
+    .content {
+    min-width: 100px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    }
+    .components {
+        position: absolute;
+        top: -150%;
+    }
+
+    .comp__hide {
+        top: 0 !important;
     }
 `;
 
